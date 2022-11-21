@@ -1,0 +1,112 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+     Title="MainWindow" Height="600" Width="600">
+    <Grid Name ="grids">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--Первая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B1_0" Grid.Column="0" Background="WhiteSmoke" />
+        <Button Grid.Row=" 1" Click="Init" Name="B1_1" Grid.Column="0"  Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B1_2" Grid.Column="0" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B1_3" Grid.Column="0" Background="SaddleBrown"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B1_4" Grid.Column="0" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B1_5" Grid.Column="0" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B1_6" Grid.Column="0" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B1_7" Grid.Column="0" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+
+        --><!--Вторая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B2_0" Grid.Column="1" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B2_1" Grid.Column="1" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B2_2" Grid.Column="1" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B2_3" Grid.Column="1" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B2_4" Grid.Column="1" Background="SaddleBrown"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B2_5" Grid.Column="1" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B2_6" Grid.Column="1" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B2_7" Grid.Column="1" Background="WhiteSmoke"/>
+
+        --><!--Третья колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B3_0" Grid.Column="2" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B3_1" Grid.Column="2" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B3_2" Grid.Column="2" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B3_3" Grid.Column="2" Background="SaddleBrown"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B3_4" Grid.Column="2" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B3_5" Grid.Column="2" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B3_6" Grid.Column="2" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B3_7" Grid.Column="2" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+
+        --><!--Четвёртая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B4_0" Grid.Column="3" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B4_1" Grid.Column="3" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B4_2" Grid.Column="3" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B4_3" Grid.Column="3" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B4_4" Grid.Column="3" Background="SaddleBrown"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B4_5" Grid.Column="3" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B4_6" Grid.Column="3" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B4_7" Grid.Column="3" Background="WhiteSmoke"/>
+
+        --><!--Пятая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B5_0" Grid.Column="4"  Background="WhiteSmoke"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B5_1" Grid.Column="4" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B5_2" Grid.Column="4" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B5_3" Grid.Column="4" Background="SaddleBrown"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B5_4" Grid.Column="4" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B5_5" Grid.Column="4" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B5_6" Grid.Column="4" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B5_7" Grid.Column="4" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+
+        --><!--Шестая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B6_0" Grid.Column="5" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B6_1" Grid.Column="5" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 2" Click="Init" Name="B6_2" Grid.Column="5" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 3" Click="Init" Name="B6_3" Grid.Column="5" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 4" Click="Init" Name="B6_4" Grid.Column="5" Background="SaddleBrown"/>
+        <Button Grid.Row=" 5" Click="Init" Name="B6_5" Grid.Column="5" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 6" Click="Init" Name="B6_6" Grid.Column="5" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 7" Click="Init" Name="B6_7" Grid.Column="5" Background="WhiteSmoke"/>
+
+        --><!--Седьмая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Name="B1_7" Grid.Column="6" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 1" Click="Init" Name="B1_7" Grid.Column="6" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 2" Click="Init" Grid.Column="6" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 3" Click="Init" Grid.Column="6" Background="SaddleBrown"/>
+        <Button Grid.Row=" 4" Click="Init" Grid.Column="6" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 5" Click="Init" Grid.Column="6" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 6" Click="Init" Grid.Column="6" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 7" Click="Init" Grid.Column="6" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+
+        --><!--Восьмая колонка кнопок--><!--
+        <Button Grid.Row=" 0" Click="Init" Grid.Column="7" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 1" Click="Init" Grid.Column="7" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 2" Click="Init" Grid.Column="7" Background="SaddleBrown" Content="⚪" FontSize="33"/>
+        <Button Grid.Row=" 3" Click="Init" Grid.Column="7" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 4" Click="Init" Grid.Column="7" Background="SaddleBrown"/>
+        <Button Grid.Row=" 5" Click="Init" Grid.Column="7" Background="WhiteSmoke"/>
+        <Button Grid.Row=" 6" Click="Init" Grid.Column="7" Background="SaddleBrown" Content="⚫" FontSize="33"/>
+        <Button Grid.Row=" 7" Click="Init" Grid.Column="7" Background="WhiteSmoke"/>-->
+
+
+    </Grid>
+</Window>
